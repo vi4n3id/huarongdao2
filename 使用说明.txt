@@ -1,0 +1,4 @@
+# 直接运行zhanshi.py可以直接看结果
+
+# 如果想改变初始局面，只需要修改init.py，
+# 然后再运行search.py进行广度优先搜索，最后再运行zhanshi.py查看结果
