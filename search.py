@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import huarongdao.init as init0
 qizis=[]
 qizis_find={}
-rw=['000','4cc','2zf','2zy','2hz','2mc','3gy','1z1','1z2','1z3','1z4']
+rw=[i[2] for i in init0.list123]+['000']
+print(rw)
 finnnnn={}
 for i in rw:
     d2={}
@@ -25,7 +26,6 @@ for i in rw:
         d2[j] = d1
     finnnnn[i] = d2
 
-print(finnnnn)
 def dicapp():
     finnnnn[qipan_r[1, 0]][qipan_r[1, 2]][qipan_r[3, 1]][qipan_r[3, 3]]\
         [qipan_r[4, 2]][qipan_r[0, 1]].append(copy.copy(qipan_r))
